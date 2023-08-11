@@ -148,7 +148,7 @@ namespace WpfApp1.ViewModel
                 PersonCountryFilter = new ObservableCollection<PersonDataFilter>();
                 foreach (var country in countries)
                 {
-                    PersonCountryFilter.Add(new PersonDataFilter() { Country = country, IsSelected = false });
+                    PersonCountryFilter.Add(new PersonDataFilter() { Country = country, IsSelected = true });
                 }
             }
             catch(Exception ex)
